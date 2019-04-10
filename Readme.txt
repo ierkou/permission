@@ -10,7 +10,7 @@ password: 12345678
 其他：
 1、如果暂时不想使用redis，如何移除16666
 1) applicationContext.xml里移除 <import resource="redis.xml" />
-2) 修改RedisPool.java 类取消被spring管理
+2) 修改RedisPool.java 类取消被spring
 3）修改SysCacheService.java 类移除RedisPool.java的使用
 
 2、如果想在正式环境使用，需要注意哪些
