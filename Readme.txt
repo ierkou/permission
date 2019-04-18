@@ -8,7 +8,7 @@ username: admin@qq.com
 password: 12345678
 
 其他：
-1、如果暂时不想使用redis，如何移除99
+1、如果暂时不想使用redis，如何移除99000
 1) applicationContext.xml里移除 <import resource="redis.xml" />
 2) 修改RedisPool.java 类取消被spring管理
 3）修改SysCacheService.java 类移除RedisPool.java的使用
